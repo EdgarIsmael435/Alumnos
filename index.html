@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            font-family: sans-serif;
+            text-align: center
+        }
+
+        body {
+            display: inline-block;
+            text-align: left
+        }
+
+        label,
+        legend {
+            font-weight: bold
+        }
+
+        *:required,
+        .obligatorio {
+            border: thin solid blue
+        }
+
+        .error {
+            color: red
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de alumnos</h1>
+    </header>
+    <table class="default">
+        <th  colspan='3' style="text-align: center; background-color: grey; color: white;">Alumnos</th>
+        <tr>      
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+        </tr>
+      
+        <tbody id="contenido">
+        </tbody>
+      
+      </table>
+    
+    <footer>
+        Copyright 2021 Edgar Ismael Rodriguez Gallegos 🔥
+    </footer>
+    <script src="js/nombre.js"></script>
+</body>
+</html>
